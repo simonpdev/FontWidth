@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontWidth", "Palette_Extractor\FontWidth.csproj", "{4170AC1D-4D2E-4C60-BE80-F80A753BBA4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4170AC1D-4D2E-4C60-BE80-F80A753BBA4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4170AC1D-4D2E-4C60-BE80-F80A753BBA4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4170AC1D-4D2E-4C60-BE80-F80A753BBA4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4170AC1D-4D2E-4C60-BE80-F80A753BBA4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E6A1461-1CDE-4882-8BC2-3FB23D19B9A1}
+	EndGlobalSection
+EndGlobal
