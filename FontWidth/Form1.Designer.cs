@@ -147,7 +147,7 @@
             this.txtCharset.Multiline = true;
             this.txtCharset.Name = "txtCharset";
             this.txtCharset.Size = new System.Drawing.Size(323, 90);
-            this.txtCharset.TabIndex = 1;
+            this.txtCharset.TabIndex = 5;
             // 
             // imgFont
             // 
@@ -174,14 +174,14 @@
             // numLetterSpacing
             // 
             this.numLetterSpacing.Location = new System.Drawing.Point(23, 42);
-            this.numLetterSpacing.Minimum = new decimal(new int[] {
-            100,
+            this.numLetterSpacing.Maximum = new decimal(new int[] {
+            256,
             0,
             0,
-            -2147483648});
+            0});
             this.numLetterSpacing.Name = "numLetterSpacing";
             this.numLetterSpacing.Size = new System.Drawing.Size(95, 20);
-            this.numLetterSpacing.TabIndex = 4;
+            this.numLetterSpacing.TabIndex = 0;
             // 
             // lblLetterSpacing
             // 
@@ -195,6 +195,11 @@
             // numCharHeight
             // 
             this.numCharHeight.Location = new System.Drawing.Point(23, 96);
+            this.numCharHeight.Maximum = new decimal(new int[] {
+            256,
+            0,
+            0,
+            0});
             this.numCharHeight.Minimum = new decimal(new int[] {
             2,
             0,
@@ -202,7 +207,7 @@
             0});
             this.numCharHeight.Name = "numCharHeight";
             this.numCharHeight.Size = new System.Drawing.Size(95, 20);
-            this.numCharHeight.TabIndex = 3;
+            this.numCharHeight.TabIndex = 1;
             this.numCharHeight.Value = new decimal(new int[] {
             16,
             0,
@@ -212,6 +217,11 @@
             // numCharWidth
             // 
             this.numCharWidth.Location = new System.Drawing.Point(23, 42);
+            this.numCharWidth.Maximum = new decimal(new int[] {
+            256,
+            0,
+            0,
+            0});
             this.numCharWidth.Minimum = new decimal(new int[] {
             2,
             0,
@@ -219,7 +229,7 @@
             0});
             this.numCharWidth.Name = "numCharWidth";
             this.numCharWidth.Size = new System.Drawing.Size(95, 20);
-            this.numCharWidth.TabIndex = 2;
+            this.numCharWidth.TabIndex = 0;
             this.numCharWidth.Value = new decimal(new int[] {
             16,
             0,
@@ -249,9 +259,14 @@
             // numWordSpacing
             // 
             this.numWordSpacing.Location = new System.Drawing.Point(23, 96);
+            this.numWordSpacing.Maximum = new decimal(new int[] {
+            256,
+            0,
+            0,
+            0});
             this.numWordSpacing.Name = "numWordSpacing";
             this.numWordSpacing.Size = new System.Drawing.Size(95, 20);
-            this.numWordSpacing.TabIndex = 5;
+            this.numWordSpacing.TabIndex = 1;
             // 
             // lblWordSpacing
             // 
@@ -301,7 +316,7 @@
             this.groupBox1.Location = new System.Drawing.Point(631, 49);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(136, 132);
-            this.groupBox1.TabIndex = 39;
+            this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Characters Size";
             // 
@@ -314,7 +329,7 @@
             this.groupBox2.Location = new System.Drawing.Point(818, 54);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(136, 127);
-            this.groupBox2.TabIndex = 40;
+            this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Spacing Options";
             // 
@@ -323,7 +338,7 @@
             this.btnCopyWidth.Location = new System.Drawing.Point(230, 288);
             this.btnCopyWidth.Name = "btnCopyWidth";
             this.btnCopyWidth.Size = new System.Drawing.Size(75, 22);
-            this.btnCopyWidth.TabIndex = 41;
+            this.btnCopyWidth.TabIndex = 8;
             this.btnCopyWidth.Text = "Copy";
             this.btnCopyWidth.UseVisualStyleBackColor = true;
             this.btnCopyWidth.Click += new System.EventHandler(this.btnCopyWidth_Click);
@@ -349,7 +364,7 @@
             this.Controls.Add(this.lblSelectedFont);
             this.Controls.Add(this.btnComputeWidth);
             this.Controls.Add(this.btnSelectImage);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1033, 523);
             this.Name = "frmBase";
