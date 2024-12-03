@@ -153,9 +153,9 @@
             // 
             this.imgFont.BackColor = System.Drawing.Color.Gainsboro;
             this.imgFont.Cursor = System.Windows.Forms.Cursors.Default;
-            this.imgFont.Location = new System.Drawing.Point(3, 3);
+            this.imgFont.Location = new System.Drawing.Point(-2, -2);
             this.imgFont.Name = "imgFont";
-            this.imgFont.Size = new System.Drawing.Size(500, 180);
+            this.imgFont.Size = new System.Drawing.Size(505, 185);
             this.imgFont.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.imgFont.TabIndex = 16;
             this.imgFont.TabStop = false;
@@ -275,7 +275,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(433, 35);
+            this.label9.Location = new System.Drawing.Point(439, 35);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(34, 13);
             this.label9.TabIndex = 37;
